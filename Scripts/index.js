@@ -7,11 +7,7 @@ let temp = 0;
 const vp = window.matchMedia("(max-width: 800px)");
 
 if (vp.matches) {
-  document.querySelector("#dir-para-1").innerHTML = `
-    After two long years, the Sports Council of   ET Pilani is organizing its 35th annual quasar (BKBIET Open Sports
-    Meet) from the 14th to the 18th of October. A platform for the students to display their talent by competing
-    against the best players across the country, I am sure the participants are ready to experience the event's
-    thrill, excitement, and adrenaline rush.`;
+  document.querySelector("#dir-para-1").innerHTML = `It is with great enthusiasm that I welcome you to QUASAR 2024, the Annual Sports Fest of BKBIET Pilani, set to take place from the 29th of November to the 1st of December. As we gather once again for this vibrant celebration of sportsmanship, competition, and camaraderie, I am confident that this year's fest will be yet another remarkable chapter in the history of QUASAR.`;
 
   document.querySelector("#dir-para-2").style.display = "none";
 }
